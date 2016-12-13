@@ -3,7 +3,5 @@
     <string name="nombre_et">Introduzca su Nombre</string>
     <string name="generar_b">Generar</string>
     <string name="texto_tv">Para generar su Nombre al reverse, introduzca su Nombre y pulsa el boton GENERAR.</string>
-    <string name="error">Ha producido un error!</string>
-    <string name="error_largo">Su nombre es demasiado largo para generarlo.</string>
-    <string name="error_corto">Para generar su nombre hace falta introducir más de una letra!</string>
+
 </resources>

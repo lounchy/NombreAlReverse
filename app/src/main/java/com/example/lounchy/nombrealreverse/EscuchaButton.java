@@ -25,10 +25,10 @@ public class EscuchaButton implements View.OnClickListener {
         String nombre = editText.getText().toString();
         TextView textView = (TextView) activity.findViewById(R.id.generar_text_view);
         String mensaje = mensajeSalida(nombre);
-        if (nombre.length() < 1) {
-            textView.setText(R.string.error + "\n" + R.string.error_corto);
+        if (nombre.length() <= 1) {
+            textView.setText("Ha producido un error!" + "\n" + "Para generar su nombre hace falta introducir más de una letra!");
         } else if (nombre.length() > 16) {
-            textView.setText(R.string.error + "\n" + R.string.error_largo);
+            textView.setText("Ha producido un error!" + "\n" + "Su nombre es demasiado largo para generarlo.");
         } else {
             textView.setText(mensaje);
         }
