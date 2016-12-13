@@ -38,7 +38,7 @@ public class EscuchaButton implements View.OnClickListener {
 
     private String mensajeSalida(String nombre) {
         String nombreReverse = new StringBuffer().reverse().toString();
-        String mensaje = "¡Hola " + nombre + "!" + "\n" + "Su nombre al reverse es:" + "\n" + nombreReverse;
+        String mensaje = "¡Hola  !" + "\n" + "Su nombre al reverse es:" + "\n" + nombreReverse;
         return mensaje;
     }
 }
